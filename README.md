@@ -18,11 +18,11 @@ The data are collected from Yahoo Finance via the `yfinance` Python library.
 
 
 
-\## Requirements
+## Dependencies
 
-Install dependencies:
+All dependencies are specified in the `environment.yml` file.  
+To recreate the environment, run:
 
 ```bash
-
-pip install -r requirements.txt
-
+conda env create -f environment.yml
+conda activate eth_crypto
